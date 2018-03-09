@@ -36,6 +36,12 @@ let a:Int = 3
 let b:Float = 0.14159265357
 let pi:Double = Double(a) + Double(b)
 
+let boolen = true
+
+if(boolen)
+{
+    print("i'm true")
+}
 
 
 
