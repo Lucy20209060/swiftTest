@@ -13,5 +13,5 @@ a
 var optionalsValue:Int?
 optionalsValue = 12
 
-let userInput = "abc"
-var age = userInput
+let userInput = "ab"
+var age = Int(userInput) // 转换为Int类型 否则为nil
